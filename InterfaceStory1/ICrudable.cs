@@ -8,5 +8,9 @@ namespace InterfaceStory1
 {
     interface ICrudable
     {
+        void Create();
+        void Update();
+        void Read();
+        void Delete();
     }
 }
